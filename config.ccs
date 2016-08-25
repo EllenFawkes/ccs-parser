@@ -1,0 +1,26 @@
+# VAF CCS text config, from /MRS/
+#
+delayPTToff 500	# Delay PTT off
+delaySelective 3500	# Delay selective
+mrsDefinitions
+ 0
+  deviceId 502	# Device ID
+  enabled true	# Device enabled
+  mrsButtonLabel null	# MRS button label
+  mrsCountChannels 9999	# Count channels
+  mrsDeviceAdded true	# MRS device added
+  mrsStartChannelIndex 0	# Start channel index
+  rv3AccountAlias rv3_mrs	# rv3 account alias
+ !
+ mrs2
+  deviceId 501	# Device ID
+  enabled true	# Device enabled
+  mrsButtonLabel MRS Smíchov	# MRS button label
+  mrsCountChannels 9999	# Count channels
+  mrsDeviceAdded true	# MRS device added
+  mrsStartChannelIndex 0	# Start channel index
+  rv3AccountAlias rv3_mrs	# rv3 account alias
+ !
+!
+status_info_priority 15	# Priority on StatusInfo box
+#EOF#
